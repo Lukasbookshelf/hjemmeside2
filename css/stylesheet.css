@@ -155,11 +155,11 @@ aside li{
     margin-left: 10px;
 }
 
-#skov {
+.skov {
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#art{
+.art{
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -174,31 +174,31 @@ aside li{
     margin-bottom: 100px;
 }
 
-#circle{
+.circle{
     border-radius: 50%;
     width: 200px;
     height: 200px;
 }
 
-  .illustrations{
+.illustrations{
     display: block;
     width: 300px;
     height: 350px;
   }
 
-  .nature{
+.nature{
     display: block;
     width: 300px;
     height: 350px;
   }
 
-  .insta{
+.insta{
     display: block;
     width: 300px;
     height: 350px;
   }
 
-  .picturerow2{
+.picturerow2{
     position: relative;
     display: flex;
     justify-content: center;
@@ -211,7 +211,7 @@ aside li{
     margin-bottom: 20px;
 }
 
-  .box{
+.box{
     position: relative;
     display: flex;
     width: 50%;
@@ -219,7 +219,7 @@ aside li{
     margin-bottom: 10px;
       }
 
-  .overlay{
+.overlay{
     position: absolute;
     bottom: 100%;
     left: 0;
@@ -231,12 +231,12 @@ aside li{
     transition: .5s ease;
   }
 
-  .box:hover .overlay{
+.box:hover .overlay{
     bottom: 0;
     height: 100%;
   }
 
-  .center {
+.center {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 0;
@@ -244,7 +244,7 @@ aside li{
    height: auto;
   }
 
-  .center h3{
+.center h3{
     text-align: center;
     color: #bba14f;
     font-family: cursive;
@@ -280,31 +280,31 @@ aside li{
     text-align: left;
     }
 
-    .column1 {
-        flex: 100%;
-        padding: 10px;
-        height: 150px;
+.column1 {
+   flex: 100%;
+    padding: 10px;
+    height: 150px;
     }
     
-    .column2 {
-        flex: 100%;
-        padding: 10px;
-        height: 150px;
-        margin-left: 100px;
+.column2 {
+    flex: 100%;
+    padding: 10px;
+    height: 150px;
+    margin-left: 100px;
     }
     
-    .footer a{
-      color: #ffffff;
-      font-family: 'Times New Roman', Times, serif;
-      text-decoration: none;
-      font-size: 20px;
-      text-align: center;
+.footer a{
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
     }
     
-    .footer a:hover{
-        text-decoration: underline;
+.footer a:hover{
+    text-decoration: underline;
     }
 
-    .footer i{
-        color: #bba14f;
+.footer i{
+    color: #bba14f;
     }
